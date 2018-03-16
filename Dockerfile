@@ -21,6 +21,7 @@ RUN apt-get update -y \
       flex \
       make \
       libraspberrypi-dev \
+      bzip2 \
  && curl -SL http://jaist.dl.sourceforge.net/project/cunit/CUnit/2.1-3/CUnit-2.1-3.tar.bz2 | tar -jxf - \
  && cd CUnit-2.1-3 \
    && autoreconf -i -f \
